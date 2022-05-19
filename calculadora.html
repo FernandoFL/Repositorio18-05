@@ -16,6 +16,20 @@
         function restaDosNumeros(num1, num2) {
             return num1 - num2;
         }
+
+        /* Ingreso de Parametros */
+        var primerNumero = parseInt(prompt("Ingrese su primer número"));
+        var segundoNumero = parseInt(prompt("Ingrese su segundo número"));
+
+        /* Función donde se unen las otras dos */
+        function calculadora(num1, num2) {
+            let resultado = ("La suma de los numeros es: " + sumaDosNumeros(num1, num2) + " y el resultado de la resta es: " + restaDosNumeros(num1, num2));
+
+            return resultado;
+        }
+
+        /* Imprime el resultado */
+        document.write4(calculadora(primerNumero, segundoNumero));
     </script>
 </head>
 
